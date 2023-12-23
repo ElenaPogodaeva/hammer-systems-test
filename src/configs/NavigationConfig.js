@@ -1,6 +1,4 @@
-import { 
-  DashboardOutlined
-} from '@ant-design/icons';
+import { DashboardOutlined, UserOutlined } from '@ant-design/icons';
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
 const dashBoardNavTree = [{
@@ -9,7 +7,16 @@ const dashBoardNavTree = [{
   title: 'home',
   icon: DashboardOutlined,
   breadcrumb: false,
-  submenu: []
+  submenu: [
+    {
+      key: 'user-list',
+      path: `${APP_PREFIX_PATH}/user-list`,
+      title: 'sidenav.userlist',
+      icon: UserOutlined,
+      breadcrumb: true,
+      submenu: []
+    },
+  ],
 }]
 
 const navigationConfig = [

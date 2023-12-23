@@ -1,6 +1,8 @@
 {
 	"home": "Home",
 	
+	"sidenav.userlist": "Users",
+
 	"sidenav.dashboard": "Dashboard",
 	"sidenav.dashboard.default": "Default",
 	"sidenav.dashboard.analytic": "Analytic",
