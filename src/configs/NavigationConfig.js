@@ -9,9 +9,9 @@ const dashBoardNavTree = [{
   breadcrumb: false,
   submenu: [
     {
-      key: 'user-list',
-      path: `${APP_PREFIX_PATH}/user-list`,
-      title: 'sidenav.userlist',
+      key: 'users',
+      path: `${APP_PREFIX_PATH}/users`,
+      title: 'sidenav.users',
       icon: UserOutlined,
       breadcrumb: true,
       submenu: []

@@ -30,6 +30,11 @@ export const getUsers = () => {
   return createResponse(url, 'GET');
 };
 
+export const getUser = (userId) => {
+  const url = `${API_BASE_URL}/users/${userId}`;
+  return createResponse(url, 'GET');
+};
+
 export const updateUser = (userId, user) => {
   const url = `${API_BASE_URL}/users/${userId}`;
   return createResponse(url, 'PUT', user);

@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchUsers } from '../../redux/thunks/userThunks';
+import { fetchUsers } from '../thunks/userThunks';
 
 const initialState = {
   isLoading: true,
